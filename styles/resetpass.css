@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:url("https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    object-fit: cover;
+    overflow:hidden;
+    
+}
+input{
+    width: 500px!important;
+}
+form{
+    position: relative;
+    top: 250px;
+    left:160px
+}
+.mouse{
+    pointer-events: none;
+}
+h3{
+    color: white;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+.btn{
+    position: relative;
+    left: 100px;
+    width: 200px;
+}
+.error{
+    margin-left: 100px;
+    color: white;
+}
